@@ -51,3 +51,8 @@ function atualizaCronometro(){
         document.getElementById("sec"+i).textContent = caculaTempo(tempos[i])[3];
     }
 }
+
+function comecaCronometro(){
+    atualizaCronometro
+
+}
